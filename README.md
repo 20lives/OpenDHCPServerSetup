@@ -4,7 +4,7 @@ In order to connect to the Studio machine in each HLK/HCK setup, we need to set 
 
 56:00:XX:00:XX:dd > 192.168.0.XX
 
-The `opendhcpserverSetup.sh` script will download openDHCP, install it as a service and configure it with the required IP assignment rule.
+Run `opendhcpserverSetup.sh` with sudo, (root privileges), to download openDHCP, install it as a service and configure it with the required IP assignment rule.
 
 The script will also create a new bridge named 'br1'. If this bridge is already used, you can change its name.
 
