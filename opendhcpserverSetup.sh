@@ -1,6 +1,6 @@
 #!/bin/sh
 Bridge=br1
-DHCP_Serv_Inst="opendhcpV1.73.tar.gz"
+DHCP_Serv_Inst="opendhcpV1.75.tar.gz"
 Cfg_File=/opt/opendhcp/opendhcp.ini
 Subnetmask="255.255.255.0"
 Bridge_IP=192.168.0.1
